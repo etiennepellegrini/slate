@@ -23,8 +23,8 @@ set :fonts_dir, 'fonts'
 # Activate the syntax highlighter
 activate :syntax
 ready do
-  require './lib/monokai_sublime_slate.rb'
   require './lib/multilang.rb'
+  require './lib/nord_slate.rb'
 end
 
 activate :sprockets
